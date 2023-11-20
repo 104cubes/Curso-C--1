@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 using namespace std;
-
+// come3ntario
 int opcion = 0, eleccion = 0; // inicializamos las variables opcion para movernos por el menu
                              // y eleccion para saber que pulso el usuario
 string NombreComp;          // variable para el nombre del usuario
