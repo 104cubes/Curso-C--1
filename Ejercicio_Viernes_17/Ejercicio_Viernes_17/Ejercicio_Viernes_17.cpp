@@ -68,6 +68,10 @@ int main()          // funcion principal
             else
             {
                 system("cls");
+              /** En realidad no era necesario. Hay que pasar por la primera para acceder a 
+                  cualquiera de las otras dos.
+                  Con una simple variable que toma valor tras elegir el 1 es suficiente. 
+                  Si esa variable no tiene valor se puede entrar al 2 o al 3, si no, error. **/
                 cout << "\n Usted necesita cumplir con los 2 pasos anteriores\n";
                 opcion = 0;
                 system("pause");
